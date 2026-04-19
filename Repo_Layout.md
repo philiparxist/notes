@@ -1,3 +1,6 @@
+# repo-review
+
+```
 repo-review/
 │
 ├── src/
@@ -21,3 +24,4 @@ repo-review/
 │
 ├── pyproject.toml
 └── README.md
+```
