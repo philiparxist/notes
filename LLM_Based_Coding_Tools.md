@@ -1,0 +1,11 @@
+| Tool | Type | Local Model Support | Interface | Execution Ability | Reasoning Reliability* | Core Strength | Weaknesses | Best For |
+|------|------|-------------------|----------|------------------|-----------------------|--------------|-----------|----------|
+| Claude Code | Agentic coding tool | ⚠️ Partial (primarily remote models) | CLI | ✅ (tool use, controlled execution) | High | Strong planning, consistent multi-step reasoning | Not local-first, limited model choice | Complex coding tasks with high reliability |
+| Codex | Code generation model/API | ❌ No | API / IDE integrations | ❌ (no native execution loop) | High | Solid code understanding and generation baseline | Not agentic, no autonomy, cloud-only | Programmatic/codegen workflows |
+| Cursor | AI-powered IDE | ⚠️ Limited (mostly cloud models) | IDE (VSCode-based) | ⚠️ (via user-triggered actions) | High | Excellent UX, strong model integration | Not local-first, less transparent | Daily development with AI assistance |
+| Cline | IDE coding agent | ✅ Yes (via Ollama, etc.) | VSCode | ⚠️ (controlled tool use) | Medium–High | Tight feedback loop, good balance of control and automation | IDE-bound, depends on model quality | Reliable local coding assistant |
+| Continue | IDE assistant | ✅ Yes | VSCode / JetBrains | ❌ (no autonomous execution) | Medium–High | Stable, simple local-first assistant | Not agentic, limited automation | Interactive coding with local models |
+| Aider | CLI coding assistant | ✅ Yes | CLI | ❌ (no autonomous execution) | Medium–High | Deterministic edits, strong git integration | Limited autonomy, manual workflow | Controlled codebase modifications |
+| OpenCode | Coding agent | ✅ Yes | CLI + desktop | ⚠️ (agent loop with execution, configurable) | Medium | Coding-focused workflows, local-first design | Less mature, inconsistent results depending on setup | Experimental local coding agents |
+| Goose | Autonomous coding agent | ✅ Yes | CLI + desktop | ✅ (can run commands, tests, install deps with permission) | Medium | End-to-end automation of dev tasks | Can go off-track, requires sandboxing | Automated coding workflows |
+| OpenHands | Agentic development platform | ✅ Yes | Web + CLI | ⚠️ (agent execution, environment-dependent) | Medium | Flexible research + coding workflows | Heavy setup, less predictable | Experimentation and research |
